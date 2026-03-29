@@ -24,10 +24,7 @@ public class Motor extends Kendaraan {
         System.out.println("======= DETAIL SEPEDA MOTOR =======");
         tampilkanInfoDasar(); 
         System.out.printf("%-15s : %d buah\n", "Jumlah Helm", jumlahHelm);
-        
         System.out.printf("%-15s : %s\n", "Fasilitas Free", "Jas Hujan (2), STNK, Bensin Full");
-        
-        System.out.printf("%-15s : %s\n", "Promo Khusus", "Diskon 10% untuk sewa >= 24 Jam!");
         System.out.println("===================================");
     }
 }
